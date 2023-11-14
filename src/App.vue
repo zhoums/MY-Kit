@@ -12,6 +12,7 @@
 <script setup>
 import ComponentList from 'packages/list.json';
 import { reactive } from 'vue'
+console.log(ComponentList,'ComponentList')
 
 const data = reactive({
   links: ComponentList.map(item => ({
